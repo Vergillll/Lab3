@@ -1,1 +1,16 @@
-
+print("input a")
+a = input()
+print("input b")
+b = input()
+print("input c")
+c = input()
+print("a = "+a)
+print("b = "+b)
+print("c = "+c)
+j = 0
+# Start
+j = b
+b = a
+a = c
+c = j
+print("Now a = "+str(a)+" and b = "+str(b)+" and c = "+str(c))
