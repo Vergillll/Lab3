@@ -1,0 +1,12 @@
+print("input a")
+a = input()
+print("input b")
+b = input()
+c = 0
+print("a = "+a)
+print("b = "+b)
+# Start
+c = a
+a = b
+b = c
+print("Now a = "+a+" and b = "+b)
