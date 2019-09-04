@@ -1,0 +1,9 @@
+print("input A")
+A = float(input())
+j = A
+A = A*j
+j = A
+A = A*j
+j = A
+A = A*j
+print(A)
