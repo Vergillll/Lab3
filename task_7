@@ -1,6 +1,10 @@
 print("input A")
 A = float(input())
+j = A
 i = A*A
-j=i*i
-A = j*j*j*i*A
+i = i*i
+i = i*j
+
+A = i*i*i
+
 print(A)
